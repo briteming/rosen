@@ -2,6 +2,10 @@ module github.com/awnumar/rosen
 
 go 1.16
 
+replace (
+  github.com/coreos/go-systemd => github.com/coreos/go-systemd/v22 latest
+)
+
 require (
 	github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef
 	github.com/eahydra/socks v0.0.0-20191219154456-071591e7aaf0
